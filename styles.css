@@ -34,6 +34,7 @@ body {
     background-color: #fff;
     border: 2px solid var(--input-border);
     border-radius: 5px;
+    width: 90%;
   }
 
 /* Three item row */
@@ -88,3 +89,51 @@ body {
     border-radius: 0px 0px 20px 0px;
 }
 
+/* --- Beginning of Button Features --- */
+
+.grid-item button {
+    display:inline-block;
+    color: white;
+    background-color: darkorange;
+    border: 4px double rgb(212, 124, 23);
+    font-size: 40px;
+    width:100%;
+}
+
+.grid-item2 button {
+    display:inline-block;
+    color: white;
+    background-color: darkorange;
+    border: 4px double rgb(212, 124, 23);
+    font-size: 40px;
+    width:100%;
+}
+
+.grid-item3 button {
+    display:inline-block;
+    color: white;
+    background-color: darkorange;
+    border: 4px double rgb(212, 124, 23);
+    font-size: 40px;
+    width:100%;
+}
+/* Button Hover Feature */
+.grid-item button:hover {
+    color:darkorange;
+    background-color: rgb(206, 206, 200);
+    cursor: grab;
+}
+
+.grid-item2 button:hover {
+    color:darkorange;
+    background-color: rgb(206, 206, 200);
+    cursor: grab;
+}
+
+.grid-item3 button:hover {
+    color:darkorange;
+    background-color: rgb(206, 206, 200);
+    cursor: grab;
+}
+
+/* --- End of Button Features --- */
