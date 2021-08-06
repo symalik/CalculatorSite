@@ -4,21 +4,36 @@ body {
     background-color: rgb(211, 207, 207);
 }
 
+/* Heading */
 .heading {
     font-size: 3em;
     text-align: center;
 }
 
+/* Main Grid Class */
 .calc-grid {
 
 }
 
+/* Form Field */
 .grid-container-value {
     display:grid;
     grid-template-columns: 1fr;
-    padding: 10px;;
+    padding: 10px;
 }
 
+/* Input Settings */
+.input {
+    font-size: 20px;
+    font-size: max(20px, 1em);
+    font-family: inherit;
+    padding: 0.5em 0.5em;
+    background-color: #fff;
+    border: 2px solid var(--input-border);
+    border-radius: 5px;
+  }
+
+/* Three item row */
 .grid-item-value {
     background-color: blanchedalmond;
     border: 1px solid black;
@@ -35,7 +50,6 @@ body {
 }
 
 .grid-item {
-    
     background-color: blanchedalmond;
     border: 1px solid black;
     padding: 20px;
@@ -43,6 +57,7 @@ body {
     text-align: center;
 }
 
+/* Two item row */
 .grid-container2 {
     display:grid;
     grid-template-columns: 1fr 2fr;
@@ -66,3 +81,4 @@ body {
     text-align: center;
     margin-top: -20px;
 }
+
