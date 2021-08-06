@@ -18,7 +18,7 @@ body {
     border-color: coral;
 }
 
-/* Form Field */
+/* One item row | Form Field */
 .grid-container-value {
     display:grid;
     grid-template-columns: 1fr;
