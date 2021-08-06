@@ -12,7 +12,10 @@ body {
 
 /* Main Grid Class */
 .calc-grid {
-    
+    padding-left: 60px;
+    padding-right: 60px;
+    border: 10px;
+    border-color: coral;
 }
 
 /* Form Field */
