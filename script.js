@@ -6,6 +6,15 @@ const calculator = {
     operator: null, //for +, -, *, /
 };
 
+function resetCalculator() {
+    calculator.displayOutput = '0';
+    calculator.firstOperand = null;
+    calculator.secondOperatonStatus = false;
+    calculator.operator = null;
+    console.log("Calculator has been reset!");
+    console.log(calculator);
+}
+
 function inputDigit(digit) {
     const {displayOutput, secondOperatonStatus} = calculator;
 
@@ -85,7 +94,8 @@ keys.addEventListener('click', (event) => {
     }
 
     if(target.classList.contains('reset')) {
-        console.log('reset', target.value);
+        resetCalculator();
+        showDisplay();
         return;
     }
 
